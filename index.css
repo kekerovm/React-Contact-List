@@ -1,0 +1,133 @@
+/* html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wrapper {
+  border: 1px solid black;
+  width: 500px;
+  margin: 100px auto;
+  background: green;
+}
+
+#title {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding-left: 40px;
+  background: rgb(10, 101, 10);
+  color: white;
+  font-size: 26px;
+} */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 1200px;
+}
+
+.listview {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.singleview {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.singlepic {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 100px;
+  background-color: rgb(160, 201, 111);
+  position: relative;
+  left: 40%;
+}
+
+.singleimgbc {
+  background-color: rgb(160, 201, 111);
+  padding: 20px;
+}
+
+p {
+  padding: 30px;
+  border-bottom: 1px solid grey;
+  text-transform: capitalize;
+}
+
+.contact {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: grey solid 1px;
+  color: black;
+}
+
+.listheader,
+.singleheader {
+  text-align: center;
+  border-bottom: grey solid 1px;
+  padding-bottom: 10px;
+}
+
+.first,
+.last {
+  margin-left: 50px;
+  text-transform: capitalize;
+}
+
+.img {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.peeps {
+  background-color: rgb(122, 179, 58);
+  color: White;
+  padding: 20px;
+  border-bottom: 3px solid rgb(93, 145, 34);
+}
