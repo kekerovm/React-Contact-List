@@ -1,0 +1,42 @@
+header {
+    background: rgb 122, 179 58;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* header button {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border: 0;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 24px;
+  } */
+  
+  header img {
+    margin: 50px 0;
+    border-radius: 50%;
+    width: 7%;
+    height: 7%;
+  }
+
+  .single {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .single li {
+    border-bottom: 1px solid #ccc;
+    display: flex; 
+    padding: 20px 0;
+  }
+  
+  .single p {
+    padding-left: 10px;
+  }
+  
